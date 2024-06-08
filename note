@@ -1,0 +1,133 @@
+ <section class="projects" id="project">
+    <h2>Projects</h2>
+    <div class="project-grid">
+        <div class="project">
+            <div class="proleft">
+                <img src="image2-1.webp" alt="">
+                <span>
+                    <p>Beauty Centre Management System</p>
+                </span>
+            </div>
+        </div>
+        <div class="project">
+            <div class="proleft">
+                <img src="Untitled.png" alt="">
+                <span>
+                    <p>Currency Converter</p>
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+.projects {
+    padding: 50px 0;
+    background-color:#E25E3E ;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project {
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    background-color: #E25E3E;
+}
+
+.proleft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.proleft img {
+    width: 100%;
+    max-width: 200px;
+    /* Adjust as needed */
+    border-radius: 5px;
+}
+
+.proleft p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 25px;
+}
+
+.project {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+
+
+
+
+
+<h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="inputbox">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+                <div class="inputbox">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+    <input type="submit" value="Send Message" class="btn">
+        </form>
+
+#222831
+#31363F
+#76ABAE
+#EEEEEE
+
+
+
+
+
+
+
+
+<h2>Technical Skills</h2>
+<div class="skill-box">
+    <p>HTML</p>
+</div>
+<div class="skill-box">
+    <p>CSS</p>
+</div>
+<div class="skill-box">
+    <p>JavaScript</p>
+</div>
+<div class="skill-box">
+    <p>SQL</p>
+</div>
+<h2>Soft Skills</h2>
+<div class="skill-box">
+    <p>Communication</p>
+</div>
+<div class="skill-box">
+    <p>Leadership</p>
+</div>
+<div class="skill-box">
+    <p>Problem Solving</p>
